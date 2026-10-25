@@ -1,0 +1,10 @@
+configuration,f1_mean,f1_std,accuracy_mean,accuracy_std,time_s
+full pipeline,0.4398,0.0016,0.8748,0.0014,70.8
+without quadratic terms,0.4394,0.0011,0.8772,0.0024,64.3
+without one-hot encoding,0.4388,0.0013,0.8812,0.0029,68.1
+without missingness indicators,0.4332,0.0008,0.8760,0.0014,57.0
+without reserved-code masking,0.4382,0.0015,0.8803,0.0030,110.9
+without compound decoding,0.4391,0.0005,0.8770,0.0039,100.9
+dropping columns over 50% missing,0.4265,0.0008,0.8693,0.0024,35.2
+no cleaning at all (raw codes),0.4298,0.0018,0.8723,0.0033,29.4
+with balanced class weights,0.4380,0.0016,0.8726,0.0017,88.4

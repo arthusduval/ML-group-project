@@ -1,0 +1,2 @@
+configuration,f1_mean,f1_std,accuracy_mean,accuracy_std,time_s
+Newton with the default threshold,0.2592,0.0030,0.9166,0.0006,195.6

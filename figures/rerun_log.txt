@@ -1,0 +1,14 @@
+=== Table 1 ===
+configuration                                       F1        accuracy     time
+-------------------------------------------------------------------------------
+least squares (normal equations)      0.4303 +- 0.0059    0.8762 +- 0.0014      55s
+ridge regression                      0.4302 +- 0.0063    0.8755 +- 0.0029      71s
+MSE gradient descent                  0.3965 +- 0.0040    0.8553 +- 0.0024     166s
+MSE stochastic GD                     0.3849 +- 0.0123    0.8506 +- 0.0135      62s
+logistic regression (GD)              0.4045 +- 0.0051    0.8662 +- 0.0021     174s
+regularised logistic (GD)             0.4044 +- 0.0050    0.8661 +- 0.0020     165s
+regularised logistic (Newton, ours)   0.4405 +- 0.0058    0.8769 +- 0.0027     191s
+=== Table 2 ===
+configuration                                       F1        accuracy     time
+-------------------------------------------------------------------------------
+Newton, threshold fixed at 0          0.2592 +- 0.0030    0.9166 +- 0.0006     196s
